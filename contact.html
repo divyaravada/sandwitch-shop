@@ -29,10 +29,37 @@
     </header>
     <hr>
     <main>
-        <!--Our content -->
-        <h1 id="about">About <abbr title="Sandwitch Shop">SS</abbr></h1>
-        <p><abbr title="Sandwitch Shop">SS</abbr> was founded in 2022. Our shop was built from a <b>Spicy Samosas</b> 🥪🥪🥪 our shop adds a unique and interesting place to our little town.</p>
+      <section>
+        <h2>Our Contact Form</h2>
 
+        <form action="https://httpbin.org/get" method="get">
+         <fieldset>
+             <legend>Send Us A Message</legend>
+             <p>
+                 <label for="name">Name:</label>
+                 <input type="text" name="name" id="name" placeholder="your name" required>
+             </p>
+             <p>
+                 <label for="email">E-Mail:</label>
+                 <input type="email" name="email" id="email" placeholder="your email" required>
+             </p>
+             <p>
+                 <label for="message">Your Message:</label><br>
+                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your messsage here"></textarea>
+             </p>
+         </fieldset>
+         <button type="submit">Send</button>
+         <button type="reset">Reset</button>
+        </form>
+      </section>
+      <section>
+        <h2>Our Location</h2>
+        <address>111 Sand straße <br>
+        Stade 21860
+    <br><br>
+Phone: <a href="tel:+4945657858598">+49 4565 7858598</a></address>
+
+      </section>
     </main>
 
     <hr>
